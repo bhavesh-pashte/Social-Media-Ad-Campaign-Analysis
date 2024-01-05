@@ -30,13 +30,12 @@ How it is calculated – Total amount spent on ad/No. of ThruPlays.
 
 There are total 4 Qualitative Columns, out of which Campaign Name, Month and Ad Name are Nominal & Platform is Binary.
 There are total 14 Quantitative Columns, out of which Frequency, CostPerThruPlay and VTR are continuous and rest all are discrete.
-![image](https://github.com/bhavesh-pashte/Social-Media-Ad-Campaign-Analysis/assets/95355473/8f7f93b7-6975-4944-985c-fa10efd84b28)
 
-
+# Overview
 Performed extensive Exploratory Data Analysis on the Social Media Ad Campaign Dataset to gain valuable insights.
 
 Built WordClouds, Bar Plots and various visualisations to understand the data better and analyse the performance of each Ad campaign.
 
 Implemented Principal Component Analysis (PCA) a dimensionality reduction technique on highly co-related columns to avoid overfitting.
 
-Built a Decision Tree Regression Model to predict Click Through Rate (CTR).
+Built a Decision Tree Regression Model with R2 Score of 0.8677 to predict Click Through Rate (CTR).
